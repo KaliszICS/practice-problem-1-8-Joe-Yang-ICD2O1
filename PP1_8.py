@@ -10,24 +10,24 @@ def q1():
 def q2():
   #Write Assignment code here
   num1= input("Enter an integer: ")
-  print(num1 not 0)
+  print(not num1 == '0')
 
 
 def q3():
   #Write Assignment code here
-  num1= input("Enter a number: ")
-  print(num1 > 0 and num1 < 10)
+  num1= float(input("Enter a number: "))
+  print(num1 >= 0 and num1 <= 10)
 
 def q4():
   #Write Assignment code here
-  num1= input("Input a food: ")
-  num2= input("Input a drink: ")
-  print(not num1=='pizza' and not num2== 'pop')
+  num1= input("Input food: ")
+  num2= input("Input drink: ")
+  print(not num1 =='pizza' or not num2 == 'pop')
 
 
 def q5():
   #Write Assignment code here
-  num1 = input("Enter an integer: ")
+  num1 = int(input("Enter an integer: "))
   print(f"The integer {num1} is {num1 % 2 == 0}")
 
 #Do not edit code after this
